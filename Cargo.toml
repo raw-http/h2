@@ -46,7 +46,7 @@ futures-util = { version = "0.3", default-features = false }
 tokio-util = { version = "0.7.1", features = ["codec"] }
 tokio = { version = "1", features = ["io-util"] }
 bytes = "1"
-http = "0.2"
+http = { git = "https://github.com/raw-http/http" }
 tracing = { version = "0.1.21", default-features = false, features = ["std"] }
 fnv = "1.0.5"
 slab = "0.4.2"
